@@ -1,0 +1,19 @@
+<h1>Angular 14 File Upload Tutorial Example - ItSolutionStuff.com</h1>
+<div class="container" id="contentToConvert">
+  <form [formGroup]="myForm" (ngSubmit)="submit()">
+
+      <label for="file">File</label>
+      <input
+        formControlName="file"
+        id="file"
+        type="file"
+        class="form-control"
+      />
+
+    <button class="btn btn-primary mt-3" type="submit">Submit</button>
+
+    <a href="#" (click)="captureScreen()">Link</a>
+
+  </form>
+  <input type="file" class="file-upload mt-3" onchange="console.log(event.target.files)" name="file" (change)="onFileSelected($event)" [(ngModel)]="file">
+</div>
