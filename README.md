@@ -8,6 +8,8 @@ npm install html2canvas
 
 npm i cropperjs
 
+npm install bootstrap
+
 ng add @angular/material
 
 
