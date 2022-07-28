@@ -1,3 +1,15 @@
+install
+
+npm install ng2-pdf-viewer
+
+npm install jspdf --save
+
+npm install html2canvas
+
+ng add @angular/material
+
+
+
 # GestorPdf
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
