@@ -6,6 +6,8 @@ npm install jspdf --save
 
 npm install html2canvas
 
+npm i cropperjs
+
 ng add @angular/material
 
 
