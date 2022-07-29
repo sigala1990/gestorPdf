@@ -12,6 +12,8 @@ npm install bootstrap
 
 ng add @angular/material
 
+ npm install --save png-to-jpeg
+
 
 
 # GestorPdf
