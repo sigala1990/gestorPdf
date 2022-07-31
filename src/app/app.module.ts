@@ -8,6 +8,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ContentmainComponent } from './componentes/contentmain/contentmain.component';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { PdfViewerComponent } from './componentes/pdf-viewer/pdf-viewer.component';
 
 @NgModule({
   declarations: [
@@ -22,9 +24,11 @@ import { NavbarComponent } from './componentes/navbar/navbar.component';
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    PdfViewerModule
+
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [PdfViewerComponent]
 })
 export class AppModule { }
